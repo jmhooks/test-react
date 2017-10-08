@@ -26,7 +26,7 @@ class Button extends Component {
 
   render() {
     return (
-      <button style={buttonBox.button} key={this.props.keyVal} onClick={() => {this.handleClick}}>{this.props.title}</button>
+      <button style={buttonBox.button} key={this.props.keyVal} onClick={this.handleClick}>{this.props.title}</button>
     )
   }
 }
